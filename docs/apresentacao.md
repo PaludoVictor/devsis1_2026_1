@@ -12,43 +12,78 @@ Abaixo estão os espaços separados e configurados para as futuras logos oficiai
   <div class="row g-3">
     <!-- Logo Principal Light -->
     <div class="col-md-4">
-      <div class="card h-100 text-center border-dashed">
+      <div class="card h-100 text-center shadow-sm">
         <div class="card-body d-flex flex-column justify-content-center align-items-center py-4 bg-light text-dark">
-          <div class="fs-1 mb-2">🐾</div>
-          <h6 class="card-title fw-bold mb-1">Logo Principal (Light)</h6>
-          <span class="badge bg-secondary mb-3">500 x 500 px</span>
-          <p class="card-text small text-muted">Para uso em fundos claros e cabeçalhos principais do sistema.</p>
-          <div class="border rounded p-2 bg-white w-100 text-center text-secondary small" style="border-style: dashed !important;">
-            [ Espaço da Logo: logo_light.png ]
-          </div>
+          <img src="/logo_amigo_fiel.png" class="img-fluid rounded-circle mb-3 shadow" style="max-height: 120px; max-width: 120px; border: 4px solid #2d6a4f;" alt="Logo Amigo Fiel Light" />
+          <h6 class="card-title fw-bold mb-1">Logo Principal (Fundo Verde)</h6>
+          <span class="badge bg-secondary mb-2">500 x 500 px</span>
+          <p class="card-text small text-muted mb-0">Silhueta do cãozinho sorridente em espaço negativo integrado a um círculo verde floresta.</p>
         </div>
       </div>
     </div>
     <!-- Logo Principal Dark -->
     <div class="col-md-4">
-      <div class="card h-100 text-center border-dashed bg-dark text-white">
+      <div class="card h-100 text-center shadow-sm bg-dark text-white">
         <div class="card-body d-flex flex-column justify-content-center align-items-center py-4">
-          <div class="fs-1 mb-2 text-warning">🐾</div>
-          <h6 class="card-title fw-bold mb-1 text-white">Logo Principal (Dark)</h6>
-          <span class="badge bg-warning text-dark mb-3">500 x 500 px</span>
-          <p class="card-text small text-muted">Para uso em telas escuras e relatórios com fundo contrastante.</p>
-          <div class="border border-warning rounded p-2 w-100 text-center text-warning small" style="border-style: dashed !important;">
-            [ Espaço da Logo: logo_dark.png ]
-          </div>
+          <img src="/logo_amigo_fiel.png" class="img-fluid rounded-circle mb-3 shadow" style="max-height: 120px; max-width: 120px; border: 4px solid #8b5a2b;" alt="Logo Amigo Fiel Dark" />
+          <h6 class="card-title fw-bold mb-1 text-white">Logo Principal (Fundo Marrom)</h6>
+          <span class="badge bg-warning text-dark mb-2">500 x 500 px</span>
+          <p class="card-text small text-muted mb-0 text-white-50">Combinação da logo com a borda de suporte em marrom chocolate para uso em modo escuro.</p>
         </div>
       </div>
     </div>
     <!-- Favicon / Ícone Simplificado -->
     <div class="col-md-4">
-      <div class="card h-100 text-center border-dashed">
+      <div class="card h-100 text-center shadow-sm">
         <div class="card-body d-flex flex-column justify-content-center align-items-center py-4 bg-light text-dark">
-          <div class="fs-1 mb-2 text-primary">🐕</div>
+          <img src="/logo_amigo_fiel.png" class="img-fluid rounded-circle mb-3 shadow" style="max-height: 64px; max-width: 64px;" alt="Logo Amigo Fiel Favicon" />
           <h6 class="card-title fw-bold mb-1">Favicon / App Icon</h6>
-          <span class="badge bg-primary mb-3">64 x 64 px</span>
-          <p class="card-text small text-muted">Ícone simplificado para aba do navegador e atalhos móveis.</p>
-          <div class="border rounded p-2 bg-white w-100 text-center text-secondary small" style="border-style: dashed !important;">
-            [ Espaço do Ícone: favicon.png ]
-          </div>
+          <span class="badge bg-primary mb-2">64 x 64 px</span>
+          <p class="card-text small text-muted mb-0">Miniatura circular otimizada para abas de navegadores e ícones de atalho mobile.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
+### 🎨 1.1 Definição da Nova Identidade Visual (Verde & Marrom)
+
+A paleta de cores do **Pet Shop Amigo Fiel** foi pensada para criar uma ponte harmônica entre o rigor clínico e o cuidado amoroso:
+
+<div class="container my-4">
+  <div class="row g-3">
+    <!-- Cor 1: Verde Floresta -->
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm" style="background-color: #f8f9fa;">
+        <div class="card-body text-center p-4">
+          <div class="rounded-circle mx-auto mb-3 shadow" style="width: 70px; height: 70px; background-color: #2D6A4F;"></div>
+          <h6 class="fw-bold mb-1 text-dark">Verde Floresta</h6>
+          <code class="text-success fw-bold">#2D6A4F</code>
+          <p class="small text-muted mt-2 mb-0">Representa saúde, bem-estar animal, vitalidade e a seriedade clínica dos médicos veterinários (CRMV).</p>
+        </div>
+      </div>
+    </div>
+    <!-- Cor 2: Marrom Chocolate -->
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm" style="background-color: #f8f9fa;">
+        <div class="card-body text-center p-4">
+          <div class="rounded-circle mx-auto mb-3 shadow" style="width: 70px; height: 70px; background-color: #8B5A2B;"></div>
+          <h6 class="fw-bold mb-1 text-dark">Marrom Chocolate</h6>
+          <code class="text-warning fw-bold">#8B5A2B</code>
+          <p class="small text-muted mt-2 mb-0">Evoca aconchego, afeto animal, o ambiente natural e a proximidade afetiva do pet shop com os donos de pets.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Cor 3: Creme / Off-White -->
+    <div class="col-md-4">
+      <div class="card h-100 border-0 shadow-sm" style="background-color: #f8f9fa;">
+        <div class="card-body text-center p-4">
+          <div class="rounded-circle mx-auto mb-3 shadow border" style="width: 70px; height: 70px; background-color: #F4F1EA;"></div>
+          <h6 class="fw-bold mb-1 text-dark">Creme Suave</h6>
+          <code class="text-secondary fw-bold">#F4F1EA</code>
+          <p class="small text-muted mt-2 mb-0">Fundo de suporte neutro que suaviza o contraste de leitura em relação ao branco puro, oferecendo conforto visual.</p>
         </div>
       </div>
     </div>

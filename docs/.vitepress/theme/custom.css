@@ -1,0 +1,42 @@
+/* Cores Personalizadas para Identidade Verde e Marrom (Amigo Fiel) */
+:root {
+  /* Tons de Verde Floresta (Primário) */
+  --vp-c-brand-1: #2d6a4f;
+  --vp-c-brand-2: #1b4332;
+  --vp-c-brand-3: #40916c;
+  --vp-c-brand-soft: rgba(45, 106, 79, 0.14);
+  
+  /* Cores de Destaques e Elementos (Marrom Chocolate / Terra) */
+  --vp-c-warning-1: #8b5a2b;
+  --vp-c-warning-2: #6f4e37;
+  --vp-c-warning-3: #a0522d;
+  --vp-c-warning-soft: rgba(139, 90, 43, 0.14);
+
+  /* Ajustes Gerais */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #2d6a4f 30%, #8b5a2b 100%);
+}
+
+/* Modificações estéticas extras para layouts de visual premium */
+.VPButton.brand {
+  border-color: #2d6a4f !important;
+  background-color: #2d6a4f !important;
+  font-weight: bold;
+}
+
+.VPButton.brand:hover {
+  border-color: #1b4332 !important;
+  background-color: #1b4332 !important;
+}
+
+.VPButton.alt {
+  border-color: #8b5a2b !important;
+  color: #8b5a2b !important;
+  font-weight: bold;
+}
+
+.VPButton.alt:hover {
+  border-color: #6f4e37 !important;
+  color: #6f4e37 !important;
+  background-color: rgba(139, 90, 43, 0.05) !important;
+}

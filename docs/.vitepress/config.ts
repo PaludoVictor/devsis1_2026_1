@@ -12,7 +12,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/slide_3.png', // Uses the mockup dashboard as a logo or custom logo if wanted
+    logo: '/logo_amigo_fiel.png', // Uses the newly generated circular logo
     siteTitle: 'Amigo Fiel',
     
     nav: [
