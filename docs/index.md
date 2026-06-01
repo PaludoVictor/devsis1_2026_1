@@ -6,14 +6,14 @@ hero:
   text: "Sistema de Gestão Integrada"
   tagline: "Uma plataforma unificada para otimizar o fluxo de clientes, atendimentos clínicos, controle de estoque crítico e vendas."
   image:
-    src: /slide_3.png
-    alt: Mockup do Painel de Controle Amigo Fiel
+    src: /logo_amigo_fiel.png
+    alt: Logo Oficial Amigo Fiel
   actions:
     - theme: brand
       text: "Documento de Visão"
       link: /introducao
     - theme: alt
-      text: "Apresentação & Modelos"
+      text: "Slides de Apresentação"
       link: /apresentacao
     - theme: alt
       text: "GitHub"
@@ -85,5 +85,5 @@ Os protótipos de alta fidelidade representam a **experiência do usuário (UX/U
 
 <div style="text-align: center; margin-top: 3rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
   <a href="/introducao" style="background-color: var(--vp-c-brand); color: white; padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ir para a Introdução ➜</a>
-  <a href="/apresentacao" style="background-color: var(--vp-c-brand-soft); color: var(--vp-c-brand); padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ver Apresentação & Modelos 📽️</a>
+  <a href="/apresentacao" style="background-color: var(--vp-c-brand-soft); color: var(--vp-c-brand); padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ver Slides de Apresentação 📽️</a>
 </div>
