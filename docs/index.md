@@ -13,10 +13,7 @@ hero:
       text: "Documento de Visão"
       link: /introducao
     - theme: alt
-      text: "Slides de Apresentação"
-      link: /apresentacao
-    - theme: alt
-      text: "GitHub"
+      text: "Acessar GitHub"
       link: https://github.com/PaludoVictor/devsis1_2026_1
 
 features:
@@ -83,7 +80,6 @@ Os protótipos de alta fidelidade representam a **experiência do usuário (UX/U
 
 ---
 
-<div style="text-align: center; margin-top: 3rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+<div style="text-align: center; margin-top: 3rem;">
   <a href="/introducao" style="background-color: var(--vp-c-brand); color: white; padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ir para a Introdução ➜</a>
-  <a href="/apresentacao" style="background-color: var(--vp-c-brand-soft); color: var(--vp-c-brand); padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ver Slides de Apresentação 📽️</a>
 </div>

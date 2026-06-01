@@ -18,7 +18,6 @@ export default defineConfig({
     nav: [
       { text: 'Início', link: '/' },
       { text: 'Documento de Visão', link: '/introducao' },
-      { text: 'Apresentação', link: '/apresentacao' },
     ],
 
     sidebar: [
@@ -32,12 +31,6 @@ export default defineConfig({
           { text: '6. Protótipos de Telas', link: '/prototipos' },
           { text: '7, 8 & 9. Planejamento e Custos', link: '/planejamento' },
           { text: '10. Considerações Finais', link: '/conclusao' },
-        ],
-      },
-      {
-        text: 'Apresentação do Projeto',
-        items: [
-          { text: 'Apresentação & Modelagem', link: '/apresentacao' },
         ],
       },
     ],
