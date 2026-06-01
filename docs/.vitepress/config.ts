@@ -6,13 +6,19 @@ export default defineConfig({
   title: 'Pet Shop Amigo Fiel',
   description: 'Documentação do Sistema de Gestão do Pet Shop Amigo Fiel',
 
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css' }],
+    ['script', { src: 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js' }]
+  ],
+
   themeConfig: {
     logo: '/slide_3.png', // Uses the mockup dashboard as a logo or custom logo if wanted
     siteTitle: 'Amigo Fiel',
     
     nav: [
       { text: 'Início', link: '/' },
-      { text: 'Documentação', link: '/introducao' },
+      { text: 'Documento de Visão', link: '/introducao' },
+      { text: 'Apresentação', link: '/apresentacao' },
     ],
 
     sidebar: [
@@ -28,6 +34,12 @@ export default defineConfig({
           { text: '10. Considerações Finais', link: '/conclusao' },
         ],
       },
+      {
+        text: 'Apresentação do Projeto',
+        items: [
+          { text: 'Apresentação & Modelagem', link: '/apresentacao' },
+        ],
+      },
     ],
 
     socialLinks: [
@@ -40,3 +52,4 @@ export default defineConfig({
     }
   },
 });
+

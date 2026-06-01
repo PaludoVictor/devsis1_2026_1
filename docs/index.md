@@ -10,10 +10,13 @@ hero:
     alt: Mockup do Painel de Controle Amigo Fiel
   actions:
     - theme: brand
-      text: "Ler Documentação de Visão"
+      text: "Documento de Visão"
       link: /introducao
     - theme: alt
-      text: "Acessar GitHub"
+      text: "Apresentação & Modelos"
+      link: /apresentacao
+    - theme: alt
+      text: "GitHub"
       link: https://github.com/PaludoVictor/devsis1_2026_1
 
 features:
@@ -80,6 +83,7 @@ Os protótipos de alta fidelidade representam a **experiência do usuário (UX/U
 
 ---
 
-<div style="text-align: center; margin-top: 3rem;">
+<div style="text-align: center; margin-top: 3rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
   <a href="/introducao" style="background-color: var(--vp-c-brand); color: white; padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ir para a Introdução ➜</a>
+  <a href="/apresentacao" style="background-color: var(--vp-c-brand-soft); color: var(--vp-c-brand); padding: 0.8rem 1.8rem; border-radius: 8px; text-decoration: none; font-weight: bold; transition: all 0.2s;">Ver Apresentação & Modelos 📽️</a>
 </div>
