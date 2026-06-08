@@ -6,7 +6,9 @@ Esta seção apresenta a modelagem técnica do **Sistema de Gestão Pet Shop Ami
 
 ## 4. Diagrama de Caso de Uso
 
-O Diagrama de Caso de Uso mapeia como os diferentes atores interagem com as fronteiras funcionais do sistema.
+O Diagrama de Caso de Uso mapeia como os diferentes atores interagem com as fronteiras funcionais do sistema:
+
+![Diagrama de Caso de Uso](/caso_uso.jpeg)
 
 ---
 
@@ -58,7 +60,9 @@ Mapeamos e detalhamos os dois principais casos de uso críticos para o negócio:
 
 ## 5. Diagrama de Entidade e Relacionamento - ER
 
-O modelo lógico do banco de dados relacional foi desenvolvido para assegurar integridade referencial robusta e consistência operacional em todas as áreas comerciais e clínicas do pet shop.
+O modelo lógico do banco de dados relacional foi desenvolvido para assegurar integridade referencial robusta e consistência operacional em todas as áreas comerciais e clínicas do pet shop:
+
+![Diagrama de Entidade e Relacionamento Completo](/der.png)
 
 ---
 
