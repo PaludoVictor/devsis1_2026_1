@@ -20,7 +20,7 @@ Estruturamos o desenvolvimento do **Sistema de Gestão Pet Shop Amigo Fiel** em 
 
 ---
 
-### Marcos de Entrega (Milestones):
+### Marcos de Entrega:
 * **M1 - Concepção Concluída (Semana 2)**: Entrega do Documento de Visão e validação do Minimundo pela gerência.
 * **M2 - Design Validado (Semana 5)**: Aprovação dos diagramas e homologação visual dos protótipos de alta fidelidade no Figma.
 * **M3 - Protótipo Funcional (Semana 9)**: Telas principais operando com dados mockados em ambiente de desenvolvimento local.
@@ -43,13 +43,15 @@ Identificamos os principais riscos associados ao sucesso da implementação do s
 
 ## 9. Custos e Orçamento
 
-Apresentamos a estimativa orçamentária para a construção, implantação e manutenção técnica inicial do sistema por um período de **12 meses**:
+Apresentamos a estimativa orçamentária para a construção, implantação e manutenção técnica inicial do sistema por um período de **12 meses**. 
+
+Como base de cálculo, foi utilizado o **valor-hora médio de um programador pleno no Brasil de R$ 80,00** (faixa de mercado entre R$ 60,00 e R$ 120,00). O esforço estimado para a equipe de 6 desenvolvedores (dedicando 10 horas semanais por membro ao longo das 14 semanas do projeto) totaliza **840 horas**.
 
 ### 🛠️ Custos de Desenvolvimento (Investimento Inicial)
-* **Design de UI/UX e Modelagem**: R$ 12.000,00 (Criação de mockups interativos e fluxos de tela).
-* **Desenvolvimento de Software**: R$ 48.000,00 (6 programadores em tempo parcial por 3 meses).
-* **Gestão de Projeto e Requisitos**: R$ 10.000,00 (Garantia de alinhamento com o Minimundo).
-* **Total do Investimento de Implantação**: **R$ 70.000,00**
+* **Design de UI/UX e Modelagem** (Fase 2 - 180 horas da equipe): R$ 14.400,00
+* **Desenvolvimento de Software** (Fases 3 e 4 - 420 horas da equipe): R$ 33.600,00
+* **Gestão de Projeto, Requisitos e Homologação** (Fases 1 e 5 - 240 horas da equipe): R$ 19.200,00
+* **Total do Investimento de Implantação**: **R$ 67.200,00** (840h @ R$ 80,00/h)
 
 ---
 
@@ -57,9 +59,9 @@ Apresentamos a estimativa orçamentária para a construção, implantação e ma
 * **Hospedagem na Vercel (Plano Pro/Team)**: R$ 120,00 / mês.
 * **Banco de Dados PostgreSQL Gerenciado (ex: Supabase/AWS)**: R$ 150,00 / mês.
 * **Ferramentas de Suporte (Figma, GitHub Team)**: R$ 80,00 / mês.
-* **Manutenção Técnica e Suporte (10h semanais)**: R$ 1.500,00 / mês.
-* **Total de Custeio Operacional**: **R$ 1.850,00 / mês** (Totalizando R$ 22.200,00 ao ano).
+* **Manutenção Técnica e Suporte (10h semanais / 40h mensais @ R$ 80,00/h)**: R$ 3.200,00 / mês.
+* **Total de Custeio Operacional**: **R$ 3.550,00 / mês** (Totalizando R$ 42.600,00 ao ano).
 
 ::: tip 💡 Viabilidade Financeira
-Considerando que o sistema automatiza o faturamento por porte (recuperando perdas de faturamento estimadas em 15% por erros manuais) e reduz em 30% a perda de vacinas vencidas por falta de controle de lotes, o Retorno sobre o Investimento (ROI) é estimado em **18 meses** após a implantação completa.
+Considerando que o sistema automatiza o faturamento por porte (recuperando perdas de faturamento estimadas em 15% por erros manuais) e reduz em 30% a perda de vacinas vencidas por falta de controle de lotes, o Retorno sobre o Investimento (ROI) é estimado em **24 meses** após a implantação completa.
 :::
