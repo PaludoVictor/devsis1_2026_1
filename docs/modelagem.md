@@ -6,9 +6,7 @@ Esta seção apresenta a modelagem técnica do **Sistema de Gestão Pet Shop Ami
 
 ## 4. Diagrama de Caso de Uso
 
-O Diagrama de Caso de Uso mapeia como os diferentes atores interagem com as fronteiras funcionais do sistema:
-
-![Diagrama de Caso de Uso](/slide_4.png)
+O Diagrama de Caso de Uso mapeia como os diferentes atores interagem com as fronteiras funcionais do sistema.
 
 ---
 
@@ -60,9 +58,7 @@ Mapeamos e detalhamos os dois principais casos de uso críticos para o negócio:
 
 ## 5. Diagrama de Entidade e Relacionamento - ER
 
-O modelo lógico do banco de dados relacional foi desenvolvido para assegurar integridade referencial robusta e consistência operacional em todas as áreas comerciais e clínicas do pet shop:
-
-![Diagrama de Entidade e Relacionamento Completo](/slide_5.png)
+O modelo lógico do banco de dados relacional foi desenvolvido para assegurar integridade referencial robusta e consistência operacional em todas as áreas comerciais e clínicas do pet shop.
 
 ---
 
@@ -74,8 +70,6 @@ Para resolver gargalos específicos mapeados na modelagem de negócios, estrutur
 
 Mapeamento focado em isolar e assegurar a integridade do prontuário médico animal:
 
-![Gargalos Clínicos](/slide_6.png)
-
 * **Hierarquia de Tutela (Relação `cliente` e `pet` - 1:N)**:
   * **Explicação**: Um `cliente` (tutor) está associado a muitos (`N`) animais de estimação sob sua tutela jurídica e financeira. No entanto, cada `pet` está estritamente vinculado a um único (`1`) tutor responsável por meio do seu CPF. Isso evita conflitos legais de propriedade e centraliza todas as cobranças financeiras em uma única conta de faturamento.
 * **O Registro Médico Obrigatório (Relação `atendimento` e `prontuario` - 1:1)**:
@@ -86,8 +80,6 @@ Mapeamento focado em isolar e assegurar a integridade do prontuário médico ani
 #### 📦 2. Estrutura de Vendas Comercial (Cardinalidade N-N)
 
 Mapeamento que garante a escalabilidade das transações de caixa:
-
-![Estruturas N-N Vendas](/slide_7.png)
 
 * **Flexibilidade Comercial (Relação `ordem_servico`, `itens_venda` e `produto` - N:N)**:
   * **Explicação**: Uma `ordem_servico` (OS ou Cupom de Venda) pode conter vários produtos e serviços vendidos de forma simultânea. Do mesmo modo, um `produto` pode constar em dezenas de ordens de serviços diferentes ao longo do tempo. Para sanar essa relação Muitos-para-Muitos (`N:N`), criamos a tabela associativa `itens_venda`, que armazena dados transacionais atômicos como quantidade vendida e subtotal calculado, permitindo a correta baixa física automática de estoques.
